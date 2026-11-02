@@ -38,6 +38,16 @@ A Retrieval-Augmented Generation (RAG) chatbot that answers questions about the 
    OPENAI_API_KEY=your_key_here
    ```
 
+## Usage
+
+```bash
+streamlit run ragchatbot.py
+```
+
+Upload a PDF in the sidebar, then ask questions about its contents in the main panel.
+
+Note: this app uses [Ollama](https://ollama.com/) (`llama3.2`) as the LLM backend, so make sure Ollama is installed and running locally with that model pulled (`ollama pull llama3.2`).
+
 ## License
 
 MIT
